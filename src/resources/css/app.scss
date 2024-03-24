@@ -1,0 +1,37 @@
+@import "reset.css";
+@import "fonts.scss";
+@import "quasar-variables.scss";
+
+html, body, .el-container.is-vertical {
+    min-height: 100vh;
+    background: $background !important;
+}
+
+html {
+    font-family: Roboto,sans-serif;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+
+//.p-0 {
+//    padding: 0 !important;
+//}
+//
+.p-fixed {
+     position: fixed !important;
+     left: 0;
+     right: 0;
+ }
+//
+//.d-flex {
+//    display: flex;
+//}
+//
+//.justify-center-center {
+//    justify-content: center;
+//}
+//
+//.align-items-center {
+//    align-items: center;
+//}
